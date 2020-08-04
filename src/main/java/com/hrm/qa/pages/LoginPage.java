@@ -9,7 +9,7 @@ import com.hrm.qa.base.TestBase;
 public class LoginPage extends TestBase {
 
 	//Page facotry OR:
-	
+
 	@FindBy(id="txtUsername")
 	WebElement username;
 
@@ -21,14 +21,14 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath ="//*[@id='menu_dashboard_index']")
 	WebElement Dashboard;
-	
+
 
 
 	public LoginPage(){
 		PageFactory.initElements(driver, this);
 	}
 
-	
+
 	//Actions:
 	public String login(String un, String pwd) {
 

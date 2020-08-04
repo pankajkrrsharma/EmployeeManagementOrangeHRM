@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="orangeHR test Automation " duration-ms="57462" started-at="2020-08-04T15:56:48Z" finished-at="2020-08-04T15:57:46Z">
+  <suite name="orangeHR test Automation " duration-ms="65611" started-at="2020-08-04T16:10:46Z" finished-at="2020-08-04T16:11:52Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="57462" started-at="2020-08-04T15:56:48Z" finished-at="2020-08-04T15:57:46Z">
+    <test name="regression" duration-ms="65611" started-at="2020-08-04T16:10:46Z" finished-at="2020-08-04T16:11:52Z">
       <class name="com.hrm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="10368" started-at="2020-08-04T21:26:48Z" finished-at="2020-08-04T21:26:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="14013" started-at="2020-08-04T21:40:46Z" finished-at="2020-08-04T21:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="LoginTest" duration-ms="5471" started-at="2020-08-04T21:26:59Z" description="Validating login page" finished-at="2020-08-04T21:27:04Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="LoginTest" duration-ms="5824" started-at="2020-08-04T21:41:00Z" description="Validating login page" finished-at="2020-08-04T21:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="821" started-at="2020-08-04T21:27:04Z" finished-at="2020-08-04T21:27:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="1256" started-at="2020-08-04T21:41:06Z" finished-at="2020-08-04T21:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrm.qa.testcases.LoginPageTest -->
       <class name="com.hrm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="setup" is-config="true" duration-ms="14756" started-at="2020-08-04T21:27:05Z" finished-at="2020-08-04T21:27:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="setup" is-config="true" duration-ms="17547" started-at="2020-08-04T21:41:07Z" finished-at="2020-08-04T21:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewEmployeeTest()[pri:1, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="addNewEmployeeTest" duration-ms="5978" started-at="2020-08-04T21:27:20Z" description="Add new employee" finished-at="2020-08-04T21:27:26Z">
+        <test-method status="PASS" signature="addNewEmployeeTest()[pri:1, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="addNewEmployeeTest" duration-ms="6825" started-at="2020-08-04T21:41:25Z" description="Add new employee" finished-at="2020-08-04T21:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewEmployeeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="800" started-at="2020-08-04T21:27:26Z" finished-at="2020-08-04T21:27:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="844" started-at="2020-08-04T21:41:32Z" finished-at="2020-08-04T21:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="setup" is-config="true" duration-ms="15556" started-at="2020-08-04T21:27:27Z" finished-at="2020-08-04T21:27:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="setup" is-config="true" duration-ms="15696" started-at="2020-08-04T21:41:32Z" finished-at="2020-08-04T21:41:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchEmployeeTest()[pri:2, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="searchEmployeeTest" duration-ms="2875" started-at="2020-08-04T21:27:42Z" description="Validating search Employee" depends-on-methods="com.hrm.qa.testcases.HomePageTest.addNewEmployeeTest" finished-at="2020-08-04T21:27:45Z">
+        <test-method status="PASS" signature="searchEmployeeTest()[pri:2, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="searchEmployeeTest" duration-ms="2761" started-at="2020-08-04T21:41:48Z" description="Validating search Employee" depends-on-methods="com.hrm.qa.testcases.HomePageTest.addNewEmployeeTest" finished-at="2020-08-04T21:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchEmployeeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="803" started-at="2020-08-04T21:27:45Z" finished-at="2020-08-04T21:27:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="810" started-at="2020-08-04T21:41:51Z" finished-at="2020-08-04T21:41:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

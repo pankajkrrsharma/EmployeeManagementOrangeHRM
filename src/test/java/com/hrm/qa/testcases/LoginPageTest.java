@@ -30,7 +30,7 @@ public class LoginPageTest extends TestBase {
 	 * Expected result - driver should navigate to home page URL.
 	 */
 	@Test(description = "Validating login page")
-	public void LoginTest() {
+	public void loginTest() {
 
 		actualHomePageUrl =	loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertEquals(actualHomePageUrl, prop.getProperty("expectedHomePageUrl"));
