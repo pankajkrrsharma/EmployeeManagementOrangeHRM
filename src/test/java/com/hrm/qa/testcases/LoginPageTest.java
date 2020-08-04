@@ -5,19 +5,14 @@ import org.testng.annotations.Test;
 import org.junit.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
 import com.hrm.qa.base.TestBase;
-import com.hrm.qa.pages.HomePage;
 import com.hrm.qa.pages.LoginPage;
 
 
 public class LoginPageTest extends TestBase {
 
-
 	LoginPage loginPage;
 	String actualHomePageUrl;
-
 
 	public LoginPageTest() {
 		super();
@@ -31,8 +26,10 @@ public class LoginPageTest extends TestBase {
 		loginPage = new LoginPage();
 	}
 
+	/*
+	 * Expected result - driver should navigate to home page URL.
+	 */
 	@Test(description = "Validating login page")
-
 	public void LoginTest() {
 
 		actualHomePageUrl =	loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -47,3 +44,6 @@ public class LoginPageTest extends TestBase {
 	}
 
 }
+
+
+
